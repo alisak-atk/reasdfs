@@ -1,21 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Header from './components/Header';
-import MainContent from './components/MainContent';
-import './App.css'
+import React, { useState } from 'react';
+import HeaderDash from './components/dashboard/HeaderDash';
+import Navbar_AA from './components/sidebar/Navbar_AA';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Sidenav from './components/sidebar/sidebar1'
+import Sidenav_v from './components/sidebar/sidebar'
+import Login from './components/Login/Login'
+// import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className='App'>
-      <Header />
-      <MainContent />
+    
+    // <Sidenav/> 
+    
+    // new
+    
+    // <Sidenav_v /> 
+    
+    //old
+
+
+        
+    <Login/>
 
       
-    </div>
-  )
+  );
 }
 
-export default App
+export default App;

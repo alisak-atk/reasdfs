@@ -1,11 +1,11 @@
-import logo from '../assets/Logo/Cyberus_hor.png'
+import logo from '../../assets/Logo/Cyberus_hor.png'
 
 function Header() {
   return (
     <header style={{ 
       display: 'flex', 
       alignItems: 'center', 
-      backgroundColor: '#e6ecee',
+      backgroundColor: '#FFF',
       padding: 8,
       color: 'white' 
     }}>

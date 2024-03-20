@@ -1,6 +1,6 @@
 import React from 'react';
 import './MainContent.css'; 
-import logo from '../assets/Logo/cyberus-ver.png'
+import logo from '../../assets/Logo/cyberus-ver.png'
 import TextField from '@mui/material/TextField';
 
 function MainContent() {
