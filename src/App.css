@@ -1,5 +1,15 @@
-* 
-{
+* {
   margin: 0;
   padding: 0;
+}
+
+.ant-layout-sider {
+  width: fit-content !important;
+  min-width: fit-content !important;
+}
+
+.ant-layout-sider-collapsed {
+  width: 80px !important;
+  min-width: 80px !important;
+  overflow: hidden;
 }
