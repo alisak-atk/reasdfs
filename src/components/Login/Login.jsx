@@ -9,7 +9,6 @@ function Login() {
       <div className='App'>
         <Header />
         <MainContent />
-  
         
       </div>
     )

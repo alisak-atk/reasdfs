@@ -1,0 +1,18 @@
+.logo {
+    display: flex;
+    padding: 8.4px;
+
+}
+.logo-icon{
+    height: 80px;
+    display: flex;
+    align-items: right;
+    justify-content: left;
+
+}
+
+.logo-image {
+    width: 200px;
+    height: 50px;
+    margin-top: 10px
+  }

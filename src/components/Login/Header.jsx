@@ -1,4 +1,4 @@
-import logo from '../../assets/Logo/Cyberus_hor.png'
+import logo from '../../assets/Logo/Cyberus_hor1.png'
 
 function Header() {
   return (
