@@ -8,13 +8,14 @@ import LandingPage from "@/pages/LandingPage";
 import SendingProfilesPage from "@/pages/SendingProfilesPage";
 import UserManagementPage from "@/pages/UserManagementPage";
 import LoginPage from "@/pages/LoginPage";
+import HomePage from "@/pages/HomePage";
 
 import "./App.css";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <LoginPage />,
+    element: <HomePage />,
   },
   {
     path: "/login",
